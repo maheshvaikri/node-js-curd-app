@@ -35,9 +35,7 @@
 		</code></strong></pre>
 	<p>Now you can start your application with command: <code><strong>nodemon</strong></code>. The beauty is that the code will be auto-compiled and executed after saving, saving you the hassle of restarting the server every time you modify your code as in case of <strong><code>start node</code></strong>.</p>
 	</li>
-
 	<br/>
-
 	<li>
 	<p><strong>Express</strong> is a Node.js framework that simplifies the work of Node.js. Read about it from: <a target="_blank" href="https://expressjs.com/">Express.js</a>.</p>
 	<p>Run following commands to install express framework:</p>
@@ -45,9 +43,7 @@
 			npm install --save express
 		</code></strong></pre>
 	</li>
-
 	<br/>
-
 	<li>
 	<p><strong>Pug</strong> is a template engine used instead of HTML. Read about it from: <a target="_blank" href="https://pugjs.org/api/getting-started.html">Pug.js</a></p>
 	<p>Run following commands to install pug template engine:</p>
@@ -56,31 +52,24 @@
 		</code></strong></pre>
 	<p>Note: You can choose to convert HTML to Pug from <strong>HTML2Jade</strong> (<a href="html2jade.org/" target="_blank">html2jade.org</a>). Pug was originally known as Jade.</p>
 	</li>
-
 	<br/>
-
 	<li>
 	<p><strong>Mongoose</strong> is a npm package for MongoDB object modeling designed to work asynchronously. Read about it from: <a target="_blank" href="https://www.npmjs.com/package/mongoose">Mongoose</a></p>
 	<p>Run following commands to install mongoose package:</p>
 		<pre><strong><code>
 			npm install --save mongoose
-		</code></strong></pre>
-		
+		</code></strong></pre>		
 	<p>Obviously, you need to have MongoDB installed and set up a database <strong>'nodejs_crud_app'</strong>. You can download and install from: <a target="_blank" href="https://www.mongodb.com/">MongoDB</a>.</p>
 	</li>
-
 	<br/>
-
 	<li>
 	<p><strong>Body Parser</strong> is npm package used to parse input form body in desired format. However, we will parse in JSON.</p>
 	<p>Run following commands to install body parser package:</p>
 		<pre><strong><code>
 			npm install --save body-parser
 		</code></strong></pre>
-	</li>
-	
-	<br/>
-	
+	</li>	
+	<br/>	
 	<li>
 	<p><strong>Bower</strong> is a package manager like npm for installing packages like bootstrap, jquery, etc.</p>
 	<p>Run following commands to install Bower package manager:</p>
@@ -92,20 +81,16 @@
 			{"directory":"public/bower_component"}
 		</code></strong></pre>
 	<p>We will not use it. But, it's good that you know it for building real-life applications.</p>
-	</li>
-	
-	<br/>
-	
+	</li>	
+	<br/>	
 	<li>
 	<p>We will also need <strong>express-messages</strong> and <strong>connect-flash</strong> for flash message, <strong>express-session</strong> for user session and <strong>express-validator</strong> for validation. Install all using following command:</p>
 		<pre><strong><code>
 			npm install --save express-message express-session connect-flash express-validation
 		</code></strong></pre>
 	<p>Follow through all of their documentation online.</p>
-	</li>
-	
-	<br/>
-	
+	</li>	
+	<br/>	
 	<li>
 	<p>Lastly, we will use <strong>passport</strong> for authentication. Read about it from : <a target="_blank" href="http://passportjs.org">passportjs.org</a>.</p>
 	<p>Run following command to install passport authentication manager:</p>
